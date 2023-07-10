@@ -13,7 +13,27 @@ Welcome to the Sokovia News Recommender System project! This project aims to del
 8. [Future Improvements](#future-improvements)
 
 ## Introduction
-This project explores the development of a news recommender system for Sokovia News, aiming to deliver tailored news articles to users. The importance of personalized news recommendations in today's information-rich world is emphasized, and two main approaches in recommender systems are discussed: content-based filtering and collaborative filtering. To provide accurate and diverse recommendations, a hybrid model that combines both approaches is proposed.
+This project explores the development of a news recommender system for Sokovia News, aiming to deliver tailored news articles to users. The importance of personalized news recommendations in today's information-rich world is emphasized, and two main approaches in recommender systems are discussed: content-based filtering and collaborative filtering. To provide accurate and diverse recommendations, a hybrid model that combines both methods is proposed.
+
+### Data for Reproducibility
+
+This repository does not contain the folder *01.Dataset*, where the necessary data to perform the analysis is located, due to Github's limitations on handling large data files. While in the future we want to include a DVC version of this folder, here is the folder structure and the sources of the files you need before running the project:
+
+├── 01.Dataset
+│   ├── Small
+│   │   ├── Original
+│   │   │   └── Train
+│   │   │       ├── [behaviors.tsv](https://msnews.github.io/)
+│   │   │       ├── [news.tsv](https://msnews.github.io/)
+│   │   │       └── [entity_embeddings.vec](https://msnews.github.io/)
+│   │   └── Clean
+│   │       └── Train
+├── Predictions
+│   └── (empty folder)
+├── [glove.6B.300d](https://nlp.stanford.edu/projects/glove/glove.6B.300d)
+└── [GoogleNews-vectors-negative300-002.bin](https://huggingface.co/fse/word2vec-google-news-300)
+
+
 
 ## Data Analysis
 The project utilized the Microsoft News Dataset (MIND), consisting of "news" and "behaviors" datasets. Preliminary data analysis provided valuable insights into the dataset's structure, data quality, user interactions, and article characteristics. These insights formed the basis for feature engineering, model selection, and system optimization.
@@ -43,3 +63,17 @@ To efficiently deploy the models in production, Microsoft Azure Cloud has been c
 Looking ahead, the focus is on creating an in-house dataset that incorporates user demographics, article ratings, and real-time external events. This dataset enhancement will further improve the accuracy and relevance of the recommendations, providing a more customized news experience for users. Continuous improvement and optimization of the recommender system are essential to stay competitive in the news industry.
 
 Thank you for your interest in the Sokovia News Recommender System project. We hope that this system will enhance your news reading experience and contribute to your engagement with our platform.
+
+## Acknowledgments
+
+This project is part of the Master in Business Analytics and Big Data program as the capstone project. We would like to express our gratitude to the program faculty and staff for their guidance and support throughout this project.
+
+The project was developed by:
+
+- Beatriz Leitão
+- Louis Ritz
+- Sachin Nair
+- Vasco Oliveira
+- Y Chi Cindy Lange
+
+We would also like to thank Microsoft for providing the necessary resources and data for this project.
