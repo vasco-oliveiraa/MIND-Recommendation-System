@@ -17,8 +17,8 @@ This project explores the development of a news recommender system for Sokovia N
 
 ### Data for Reproducibility
 
-This repository does not contain the folder *01.Dataset*, where the necessary data to perform the analysis is located, due to Github's limitations on handling large data files. While in the future we want to include a DVC version of this folder, here is the folder structure and the sources of the files you need before running the project:
-
+This repository does not contain the folder *01.Dataset*, where the necessary data to perform the analysis is located, due to Github's limitations on handling large data files. While in the future, we want to include a DVC version of this folder, here is the folder structure and the sources of the files you need before running the project:
+<details>
 ├── 01.Dataset
 │   ├── Small
 │   │   ├── Original
@@ -32,8 +32,7 @@ This repository does not contain the folder *01.Dataset*, where the necessary da
 │   └── (empty folder)
 ├── [glove.6B.300d](https://nlp.stanford.edu/projects/glove/glove.6B.300d)
 └── [GoogleNews-vectors-negative300-002.bin](https://huggingface.co/fse/word2vec-google-news-300)
-
-
+</details>
 
 ## Data Analysis
 The project utilized the Microsoft News Dataset (MIND), consisting of "news" and "behaviors" datasets. Preliminary data analysis provided valuable insights into the dataset's structure, data quality, user interactions, and article characteristics. These insights formed the basis for feature engineering, model selection, and system optimization.
