@@ -7,9 +7,9 @@ def popularity_category_recommender(timestamp, categories, read_articles, k=5):
     
     current_path = os.getcwd()
     
-    news_path = os.path.join(current_path, 'Data/news.pkl')
-    behaviors_path = os.path.join(current_path, 'Data/behaviors.pkl')
-    
+    news_path = os.path.join(current_path, '..\\01.Dataset\\Small\\Clean\\Train\\news.pkl')
+    behaviors_path = os.path.join(current_path, '..\\01.Dataset\\Small\\Clean\\Train\\behaviors.pkl')
+
     news = pd.read_pickle(news_path)
     behaviors = pd.read_pickle(behaviors_path)
     

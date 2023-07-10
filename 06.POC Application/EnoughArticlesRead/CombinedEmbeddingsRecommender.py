@@ -5,7 +5,7 @@ import os
 def combined_embeddings_recommender(read_articles, timestamp, recommended_article_ids, k=3):
     
     current_path = os.getcwd()
-    news_path = os.path.join(current_path, 'Data/news.pkl')
+    news_path = os.path.join(current_path, '..\\01.Dataset\\Small\\Clean\\Train\\news.pkl')
     news = pd.read_pickle(news_path)
 
     # create filtered_news based on recommended articles from collaborative based filtering

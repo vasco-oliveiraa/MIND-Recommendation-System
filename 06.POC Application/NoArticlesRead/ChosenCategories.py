@@ -6,7 +6,7 @@ def choose_categories():
     
     current_path = os.getcwd()
     
-    news_path = os.path.join(current_path, 'Data/news.pkl')
+    news_path = os.path.join(current_path, '..\\01.Dataset\\Small\\Clean\\Train\\news.pkl')
     
     news = pd.read_pickle(news_path)
 

@@ -4,7 +4,7 @@ import pandas as pd
 def collaborative_recommender(read_articles, timestamp, similar_users_timestamps):
     
     current_path = os.getcwd()
-    behaviors_path = os.path.join(current_path, 'Data/behaviors.pkl')
+    behaviors_path = os.path.join(current_path, '..\\01.Dataset\\Small\\Clean\\Train\\behaviors.pkl')
     behaviors = pd.read_pickle(behaviors_path)
 
     # Filter behaviors df for similar users & timestamps
