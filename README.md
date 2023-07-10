@@ -30,6 +30,12 @@ The models were evaluated using various metrics, including Hit Ratio, Precision@
 ## Business Application and ROI
 The recommender system offers significant business application potential for Sokovia News. By delivering personalized news article recommendations, user engagement and satisfaction can be enhanced, leading to increased ad revenues and potential conversions into premium subscriptions. The estimated ROI of the recommender system is approximately 220%, demonstrating its cost-effectiveness and value.
 
+### Proof of Concept Streamlit App
+To showcase the proof of concept of the recommender system, a simple Streamlit app has been developed. The app demonstrates the functionality of the three models at different points of the customer journey. The app provides a user interface where users can input their preferences and interact with the system to receive personalized news article recommendations.
+
+To run the app, execute the following command:
+`streamlit run App.py`
+
 ## Production and Deployment
 To efficiently deploy the models in production, Microsoft Azure Cloud has been chosen as the preferred architecture. It provides dynamic resource allocation, scalability, and cost efficiency through a pay-as-you-go model. Legal and regulatory requirements, such as data privacy regulations, encryption measures, and intellectual property protection, have been addressed to ensure compliance and user trust.
 
