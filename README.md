@@ -4,7 +4,7 @@ Welcome to the Sokovia News Recommender System project! This project aims to del
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Data Analysis](#data-analysis)
+2. [Exploratory Data Analysis](#data-analysis)
 3. [Data Preparation and Feature Engineering](#data-preparation-and-feature-engineering)
 4. [Recommender Models](#recommender-models)
 5. [Model Evaluation](#model-evaluation)
