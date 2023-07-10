@@ -19,21 +19,39 @@ This project explores the development of a news recommender system for Sokovia N
 
 This repository does not contain the folder *01.Dataset*, where the necessary data to perform the analysis is located, due to Github's limitations on handling large data files. While in the future, we want to include a DVC version of this folder, here is the folder structure and the sources of the files you need before running the project:
 <details>
-  <pre>
-  ├── 01.Dataset
-  │   ├── Small
-  │   │   ├── Original
-  │   │   │   └── Train
-  │   │   │       ├── [behaviors.tsv](https://msnews.github.io/)
-  │   │   │       ├── [news.tsv](https://msnews.github.io/)
-  │   │   │       └── [entity_embeddings.vec](https://msnews.github.io/)
-  │   │   └── Clean
-  │   │       └── Train
-  ├── Predictions
-  │   └── (empty folder)
-  ├── [glove.6B.300d](https://nlp.stanford.edu/projects/glove/glove.6B.300d)
-  └── [GoogleNews-vectors-negative300-002.bin](https://huggingface.co/fse/word2vec-google-news-300)
-  </pre>
+<ul>
+  <li>01.Dataset
+    <ul>
+      <li>Small
+        <ul>
+          <li>Original
+            <ul>
+              <li>Train
+                <ul>
+                  <li><a href="https://msnews.github.io/behaviors.tsv">behaviors.tsv</a></li>
+                  <li><a href="https://msnews.github.io/news.tsv">news.tsv</a></li>
+                  <li><a href="https://msnews.github.io/entity_embeddings.vec">entity_embeddings.vec</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Clean
+            <ul>
+              <li>Train</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Predictions
+    <ul>
+      <li>(empty folder)</li>
+    </ul>
+  </li>
+  <li><a href="https://nlp.stanford.edu/projects/glove/glove.6B.300d">glove.6B.300d</a></li>
+  <li><a href="https://huggingface.co/fse/word2vec-google-news-300">GoogleNews-vectors-negative300-002.bin</a></li>
+</ul>
 </details>
 
 ## Data Analysis
