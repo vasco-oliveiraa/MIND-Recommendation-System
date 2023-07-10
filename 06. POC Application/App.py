@@ -54,8 +54,6 @@ def app():
 
         display_recommendations(rec_article_ids)
 
-        st.write(st.session_state['read_articles'])
-
 if __name__ == "__main__":
     app()
     
