@@ -38,6 +38,9 @@ This repository does not contain the folder *01.Dataset*, where the necessary da
           <li>Clean
             <ul>
               <li>Train</li>
+                <ul>
+                  <li>(Empty Folder)</li>
+                </ul>
             </ul>
           </li>
         </ul>
@@ -46,7 +49,7 @@ This repository does not contain the folder *01.Dataset*, where the necessary da
   </li>
   <li>Predictions
     <ul>
-      <li>(empty folder)</li>
+      <li>(Empty Folder)</li>
     </ul>
   </li>
   <li><a href="https://nlp.stanford.edu/projects/glove/glove.6B.300d">glove.6B.300d</a></li>
